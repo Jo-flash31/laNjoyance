@@ -1,0 +1,62 @@
+.backgroundhome {
+    background-image: url("../../../src/images/njoya/enseigne.webp");
+    background-size: cover;
+    background-position: center;
+    width: 1329px;
+    height: 461px;
+    opacity: 84%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-sommaire {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+    
+
+  }
+  .macafrik{
+    background-image: url("../../../src/images/njoya/cacaoWandy.png");
+    
+  }
+  .gateau-wax{
+    background-image: url("../../../src/images/njoya/gateau-wax.webp");
+  }  
+
+  .eclair-banane{
+    background-image: url("../../../src/images/njoya/eclair-banane.webp");
+  }
+  
+/*Styles  de la page d’accueil */
+.home-title {
+  color: #724908;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-intro {
+  color: #5e3C07;
+  margin-bottom: 20px;
+  width: 874px;
+  height: 203px;
+  text-align: center;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  max-width: 600px;      /* limite la largeur */
+  margin: 0 auto;        /* centre le bloc */
+  font-size: clamp(1rem, 2vw, 1.4rem); /* responsive */
+  line-height: 1.5;      /* espacement des lignes */
+  
+  
+  
+}
+
+
+
+  
+  
+  
