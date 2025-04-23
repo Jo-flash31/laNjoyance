@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const connectMongoDB = require('./config/dbmongo');
 const userRouter = require('./router/user.router');
-const patisserieRoutes = require('./router/patisserie.router');
+const productRoutes = require('./router/product.router');
 const commandeRoutes = require('./router/commande.router');
 const requestLogger = require('./middlewares/requestLogger');
 const cookieParser = require('cookie-parser');
@@ -20,7 +20,7 @@ app.use(cookieParser());
 connectMongoDB(ENV.MONGO_URI, ENV.DB_NAME);
 
 app.use('/api/user', userRouter);
-app.use('/api/patisserie', patisserieRoutes);
+app.use('/api/product', productRoutes);
 app.use('/api/commande', commandeRoutes); 
 
 // Tes URL API PREFIX
