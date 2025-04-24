@@ -2,33 +2,38 @@
     background-image: url("../../../src/images/njoya/enseigne.webp");
     background-size: cover;
     background-position: center;
-    width: 1329px;
+    width: 100%;
     height: 461px;
     opacity: 84%;
     display: flex;
     justify-content: center;
   }
+/*le container de mes 3 IMG et texte */
+  .c-img {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw
+  }
 
-  .img-sommaire {
-    width: 30px;
-    height: 30px;
+/*les  3 IMG */
+  .c-img > img {
+    width: 250px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;  
+    border-radius: 100rem;
     
-    
-
+/*le container entier avec mes 3 IMG*/
   }
-  .macafrik{
-    background-image: url("../../../src/images/njoya/cacaoWandy.png");
-    
-  }
-  .gateau-wax{
-    background-image: url("../../../src/images/njoya/gateau-wax.webp");
-  }  
+  .c-sommaire-img {
+    display: flex;
+    justify-content: space-evenly;  
+    gap: 20px;
 
-  .eclair-banane{
-    background-image: url("../../../src/images/njoya/eclair-banane.webp");
+   
   }
   
 /*Styles  de la page d’accueil */
@@ -40,9 +45,9 @@
 
 .home-intro {
   color: #5e3C07;
-  margin-bottom: 20px;
-  width: 874px;
-  height: 203px;
+  margin-bottom: 20%;
+  width: 874%;
+  height: 203%;
   text-align: center;
   justify-content: center; /* centre horizontalement */
   align-items: center;     /* centre verticalement */
