@@ -26,3 +26,10 @@ dist-ssr
 # Local env files
 .env
 .env.local
+
+*:Zone.Identifier
+# Mac System files
+.DS_Store
+# Windows System files
+Thumbs.db
+ehthumbs.db
