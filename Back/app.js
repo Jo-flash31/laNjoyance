@@ -10,6 +10,7 @@ const requestLogger = require('./middlewares/requestLogger');
 const cookieParser = require('cookie-parser');
 
 app.use(express.json());
+app.use(express.static('public')); // Pour servir les fichiers statiques
 app.use(requestLogger);
 app.use(cors({
   origin: 'http://localhost:5173', // L'URL de votre frontend
